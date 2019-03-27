@@ -1,6 +1,10 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="../assets/logo.png">
+  <q-page class="flex flex-start">
+    <div class="div">
+      <div class="section section--typography"></div>
+
+      <div class="section section--buttons"></div>
+    </div>
   </q-page>
 </template>
 
@@ -9,6 +13,6 @@
 
 <script>
 export default {
-  name: 'HelloWorld'
-}
+  name: "HelloWorld"
+};
 </script>
