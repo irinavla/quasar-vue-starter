@@ -1,7 +1,7 @@
 <template>
   <q-layout id="q-app" view="lHh Lpr lFf">
     <q-layout-header class="layout-header">
-      <q-toolbar color="primary" class="toolbar">
+      <q-toolbar class="toolbar bg-primary">
         <q-btn
           flat
           dense
@@ -16,6 +16,12 @@
         </q-item>
       </q-toolbar>
     </q-layout-header>
+
+    <!-- <q-layout-footer>
+      <q-toolbar class="bg-secondary">
+        <q-toolbar-title>Layout Footer</q-toolbar-title>
+      </q-toolbar>
+    </q-layout-footer>-->
 
     <q-layout-drawer
       v-model="leftDrawerOpen"
